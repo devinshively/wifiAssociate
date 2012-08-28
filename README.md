@@ -3,7 +3,7 @@ Do not attempt to install this project to the simulator or to your device using 
 
 Buid Steps:
 
-1. In testViewController.m, line 35, modify Enter network here to the SSID of the network you wish to associate to. (optional. if network is wep or wpa protected, edit SOLStumbler, line , change NULL to @"YourWpaKeyHere")
+1. In testViewController.m, line 35, modify Enter network here to the SSID of the network you wish to associate to. (optional. if network is wep or wpa protected, edit SOLStumbler.m line 85, change NULL to @"YourWpaKeyHere")
 2. Go to Product > Build For > Archiving
 3. Right click Products > wificonnect43.app and click "Show in Finder"
 4. In the folder Release-iphoneos, move wifiConnect43.app to your Desktop
